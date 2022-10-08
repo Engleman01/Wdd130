@@ -69,17 +69,17 @@ nav a:hover {
 
 .icon {
     width: 80px;
-    background-color: rgba(0, 0, 0, 0.023);
+    
 }
 
 .logo {
     width: 80px;
-    background-color: rgba(0, 0, 0, 0.023);
+   
 }
 
 #hero-img {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.023);
+    
 
 }
 
@@ -99,24 +99,6 @@ footer p {
 .join {
     background-color: rgba(33, 50, 2, 0.644);
     color: #d9c2a3;
-}
-
-.msg {
-    background-color: rgba(33, 50, 2, 0.644);
-    color: #d9c2a3;
-}
-
-.msg h2 {
-    background-color: rgba(0, 0, 0, 0.023);
-}
-
-.msg p {
-    background-color: rgba(0, 0, 0, 0.023);
-
-}
-
-h4 {
-    background-color: rgba(0, 0, 0, 0.023);
 }
 
 footer a:hover {

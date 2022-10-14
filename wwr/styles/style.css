@@ -183,6 +183,24 @@ footer .social img {
 .msg p {
     padding: 15px;
 }
+.rapids-card{
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    margin: 200px 0;
+}
+.camping-card{
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    margin: 200px 0;
+}
+.rivers-card{
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    margin: 200px 0;
+}
 
 .card {
     padding: 15px 30px;

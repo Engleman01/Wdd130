@@ -178,7 +178,7 @@
 
 .green5 {
     width: 150px;
-    height: 110px;
+    height: 100px;
     float: left;
     background-color: green;
 
@@ -186,7 +186,7 @@
 
 .yellow5 {
     width: 100%;
-    height: 250px;
+    height: 100px;
     background-color: gold;
 
 }
@@ -197,6 +197,7 @@
     background-color: blue;
 }
 
+/* Activity 6 styles */
 .red6 {
     width: 400px;
     height: 200px;

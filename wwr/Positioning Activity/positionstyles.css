@@ -166,7 +166,7 @@
 /* Activity 5 styles */
 .content5 {
     /* This is the parent of the activity 5 boxes. */
-    max-width: 100%;
+    max-width: 600px;
     height: 400px;
 }
 
@@ -178,7 +178,7 @@
 
 .green5 {
     width: 150px;
-    height: 100px;
+    height: 150px;
     float: left;
     background-color: green;
 
@@ -186,7 +186,7 @@
 
 .yellow5 {
     width: 100%;
-    height: 100px;
+    height: 200px;
     background-color: gold;
 
 }
@@ -197,7 +197,15 @@
     background-color: blue;
 }
 
-/* Activity 6 styles */
+
+.content6 {
+     /* This is the parent of the activity 6 boxes. */
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 100px);
+    grid-gap: 0;
+    width: 600px;
+}
 .red6 {
     width: 400px;
     height: 200px;

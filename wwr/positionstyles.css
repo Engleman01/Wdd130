@@ -166,7 +166,7 @@
 /* Activity 5 styles */
 .content5 {
     /* This is the parent of the activity 5 boxes. */
-    max-width: 600px;
+    max-width: 800px;
     height: 400px;
 }
 
@@ -186,7 +186,7 @@
 
 .yellow5 {
     width: 100%;
-    height: 200px;
+    height: 250px;
     background-color: gold;
 
 }

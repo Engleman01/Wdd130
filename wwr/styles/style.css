@@ -164,7 +164,7 @@ footer p {
     color: #d9c2a3;
 }
 
-.book .join {
+.book ,.join {
     background-color: #d9c2a3;
     color: black;
     text-decoration: none;

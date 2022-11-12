@@ -24,7 +24,7 @@
 
 h2 {
     margin: 0;
-
+    color: black
 }
 
 #hero-msg h1 {
@@ -57,7 +57,7 @@ h2 {
 .button-box {
     text-align: center;
 
-    
+
 
 
 
@@ -83,7 +83,7 @@ main section {
 
 
 body {
-    background-color: #fcfbfb;
+    background-color: white;
     font-family: 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-size: 22px;
     margin: 0;
@@ -164,7 +164,8 @@ footer p {
     color: #d9c2a3;
 }
 
-.book ,.join {
+.book,
+.join {
     background-color: #d9c2a3;
     color: black;
     text-decoration: none;
@@ -172,7 +173,7 @@ footer p {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
-    
+
 
 }
 
@@ -295,6 +296,7 @@ nav {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
+
 /* page 2 */
 
 .home-grid {
@@ -307,18 +309,16 @@ nav {
 .rafting-title {
     background-color: rgba(237, 223, 203, 0.023);
     margin-top: 10px;
-    font-family: Arial, Helvetica, sans-serif;}
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-    .rapids1-grid {
-        padding: 15px 30px;
-        margin-top: 50px;
-        border-radius: 5px;
-        margin: 200px 0;
-        grid-column: 8/10;
-    }
-
-
-
+.rapids1-grid {
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    margin: 200px 0;
+    grid-column: 8/10;
+}
 
 /* do not put anything below this */
 @media screen and (max-width: 900px) {

@@ -64,11 +64,11 @@
     padding: 5px;
   }
   
-  .hi-pets {
+  .my-golden-retriever {
     justify-self: left;
   }
   
-  .who-are-we {
+  .about-our-dogs {
     grid-column: 4;
     justify-self: right;
   }
@@ -310,10 +310,10 @@
   }
   
   /* 
-    Who Are We
+    About your dogs
   */
   
-  .who-are-we-paragraph-1 {
+  .home-paragraph-1 {
     grid-column: 2/7;
     grid-row: 1;
     margin-top: 5em;
@@ -322,14 +322,14 @@
     justify-self: center;
   }
   
-  .who-are-we-right-img {
+  .home-right-img-1 {
     grid-column: 7/12;
     grid-row: 1;
     margin-top: 5em;
     height: 350px;
   }
   
-  .who-are-we-paragraph-2 {
+  .home-paragraph-2 {
     grid-column: 7/12;
     grid-row: 2;
     margin-top: 5em;
@@ -337,14 +337,14 @@
     justify-self: center;
   }
   
-  .who-are-we-left-img {
+  .home-right-img-2 {
     grid-column: 2/6;
     grid-row: 2;
     margin-top: 5em;
     height: 350px;
   }
   
-  .who-are-we-paragraph-3 {
+  .home-paragraph-3 {
     grid-column: 2/5;
     text-align: center;
     margin: 70px 0;

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Roboto&display=swap');
+
+#background {
+  height: 725px;
+}
+          
+body {
+  background-color: #a0bba7; 
+}
+header {
+  background-color:#a0bba7(20,30,13, .7);
+}
+nav a:hover {
+  background-color: black;
+}
+nav a:hover {
+  background-color: black;
+  color:  #9ac299;
+}    
+.icon {
+  width: 80px;
+}
+nav a {
+  text-align: center;
+  color: #a0bba7;
+  text-decoration: none;
+}    
+footer p {
+  font-size: 1.2em;
+}    
+footer p a:hover {
+  text-decoration: underline;
+}    

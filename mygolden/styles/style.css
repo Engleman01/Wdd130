@@ -1,33 +1,141 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Roboto&display=swap');
 
-#background {
-  height: 725px;
+.home-title {
+  font-family: 'Akaya Telivigala', 'Helvitica, sans-serif';
+  font-size: 5em;
+  margin-top: 10px;
 }
-          
-body {
-  background-color: #a0bba7; 
-}
+
 header {
-  background-color:#a0bba7(20,30,13, .7);
+  background-color: #6e633d;
+  display: grid;
+  grid-template-columns: 50px auto;
+  display: grid;
+  grid-template-columns: 50px auto;
+  text-align: center;
+
+
 }
-nav a:hover {
-  background-color: black;
+
+#background {
+  height: 100px;
+
 }
+.home-title {
+  background-color:   #6e633d;
+  margin-top: 10px;
+  font-family: 'Akaya Telivigala', 'Helvitica, sans-serif';
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #a0bba7;
+    font-family: 'Akaya Telivigala', 'Helvitica, sans-serif';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
 nav a:hover {
+  background-color: #9ac299;
+  text-align: center;
+  text-decoration: none;
   background-color: black;
-  color:  #9ac299;
-}    
+  padding: 35px;
+}
+
+nav a:hover {
+  background-color:#9ac299;
+  color: black;
+}
+
+h1 {
+  margin: 0;
+  color: black
+}
+
+h2 {
+  margin: 0;
+  color: black
+}
+
 .icon {
-  width: 80px;
+  width: 150px;
 }
+#hero-img {
+  width: 100%;
+
+
+}
+
 nav a {
   text-align: center;
   color: #a0bba7;
   text-decoration: none;
-}    
+}
+
+main section {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: 'Akaya Telivigala', 'Helvitica, sans-serif';
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  color: white;
+
+}
+.logo {
+  width: 150px;
+  padding-top: 5px;
+}
+
+
 footer p {
   font-size: 1.2em;
-}    
+  text-align: left;
+  color: #d9c2a3;
+}
+
 footer p a:hover {
   text-decoration: underline;
-}    
+}
+
+footer {
+  background-color: #a0bba7;
+  padding: 25px 50px;
+  margin-top: 200px;
+  background-color:  #6e633d;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social img {
+  padding: 15px;
+}
+
+#logo_link {
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
+}
+
+#hero-msg {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: 100px;
+}

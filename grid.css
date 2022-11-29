@@ -43,13 +43,13 @@ START grid layout extra credit
   display:               grid;
   grid-template-columns: repeat(12, 50px);
   padding:               1rem;
-  background-color:      #36a136;
+  background-color:      #3c1313;
 }
 
 .grid3 h3 {
   grid-column:      2 / 4;
   align-items:      center;
-  background-color: #289b28;
+  background-color: #fd5454;
 }
 
 .grid4 {
@@ -58,12 +58,12 @@ START grid layout extra credit
   display:               grid;
   grid-template-columns: repeat(12, 70px);
   padding:               1rem;
-  background-color:      #115b59;
+  background-color:      #5b1111;
 }
 
 .grid4 h2 {
   grid-column:      1 / 6;
-  background-color: #07f1ed;
+  background-color: #f10707;
   align-items:      center;
 }
 
@@ -79,19 +79,19 @@ section {
 
 section h2 {
   grid-column:      1 / 5;
-  background-color: rgb(161, 131, 131);
+  background-color: rgb(162, 77, 77);
 
 }
 
 form {
-  background-color: rgb(192, 106, 106);
+  background-color: rgb(186, 45, 45);
   grid-column:      2 / 5;
 
 
 }
 
 legend {
-  background-color: rgb(164, 58, 40);
+  background-color: rgb(247, 61, 28);
   font-size:        20px;
   font-weight:      700;
   grid-column:      2 / 5;
@@ -120,7 +120,7 @@ input {
 }
 
 button {
-  background-color: rgb(225, 213, 46);
+  background-color: rgb(98, 3, 3);
   color:            white;
   padding-right:    160px;
   margin-bottom:    60px;

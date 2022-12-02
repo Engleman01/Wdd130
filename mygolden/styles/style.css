@@ -14,7 +14,7 @@ header {
   background-color: #a0bba7;
   padding: 25px 50px;
   margin-top: 200px;
-  background-color:  #6e633d;
+  background-color: #7fb87d99;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -34,7 +34,7 @@ header p a:hover {
 
 }
 .home-title {
-  background-color:   #6e633d;
+  background-color:#6e633d;
   margin-top: 10px;
   font-family: 'Akaya Telivigala', 'Helvitica, sans-serif';
 }
@@ -71,7 +71,7 @@ nav a {
 }
 
 body {
-  background-color: white;
+  background-color:#6e633d;
   font-family: 'Akaya Telivigala', 'Helvitica, sans-serif';
   font-size: 22px;
   margin: 0;
@@ -88,7 +88,7 @@ body {
 footer p {
   font-size: 1.2em;
   text-align: left;
-  color: #d9c2a3;
+  color: #9ac299;
 }
 
 footer p a:hover {
@@ -99,7 +99,7 @@ footer {
   background-color: #a0bba7;
   padding: 25px 50px;
   margin-top: 200px;
-  background-color:  #6e633d;
+  background-color: darkolivegreen;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -171,6 +171,7 @@ h2 {
   margin: 70px 0;
 }
 
+
 /* 
   Feedback
 */
@@ -186,7 +187,7 @@ label {
   font-size: 1em;
   text-transform: uppercase;
   font-weight: bold;
-  color: #a0bba7;
+  color: #6e633d;
   position: absolute;
   left: 1rem;
   margin: 20px 20px;
@@ -219,13 +220,13 @@ textarea {
   font-family: 'Akaya Telivigala', 'Helvitica, sans-serif';
   width: 500px;
   box-sizing: border-box;
-  border: 2px solid #a0bba7;
+  border: 2px solid #6e633da7;
   border-radius: 4px;
   padding: 20px 30px 20px 90px;
   align-self: center;
   background: none;
   outline: none;
-  background-color: #a0bba7;;
+  background-color: white;
 }
 
 textarea {
@@ -241,15 +242,14 @@ textarea::-webkit-input-placeholder {
 
 input:hover,
 textarea:hover {
-  border-color: #a0bba7;;
-  background-color: #a0bba7;;
+  border-color: #a0bba7;
+  background-color: white;
 }
 
 input:focus,
 textarea:focus {
-  border-color: #a0bba7;;
-  background-color: #a0bba7;;
-  outline: none;
+  border-color:black;
+  background-color: white;
 }
 
 .wrap {
@@ -266,12 +266,12 @@ textarea:focus {
   background-color: #a0bba7;
   border-radius: 7px;
   border: none;
-  color: #a0bba7;;
+  color: black;
 }
 
 .button:hover {
-  background-color:#a0bba7;;
-  color: #a0bba7;;
+  background-color:white;
+  color: #a0bba7;
   border-radius: 10px;
   padding: 15px 60px;
 }

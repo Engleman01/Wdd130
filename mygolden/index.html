@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Golden Retriever</title>
+
   <link rel="stylesheet" href="styles/style.css">
 </head>
 
@@ -30,62 +30,133 @@
     </header>
     <div id="hero">
       <div id="hero-box">
-        <img id="hero-img" src="images/pupchristmas.jpg" alt="Golden Retriever">
+        <!-- <img id="hero-img" src="images/pupchristmas.jpg" alt="Golden Retriever"> -->
       </div>
-      <section id="hero-msg">
-        <h1 About our Dogs></h1>
-        <h4></h4>
-        </h4>
-        <div>
-        </div>
-      </section>
-    </div>
-    <main class="home-grid">
-      <section class="">
-        <h2></h2>
-      </section>
-      <section class="">
-        <div id=""></div>
-        </p>
-      </section>
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
 
-      <main>
-        <section>
-          <article>
-            <h2>About our Dogs
-              If you are just meeting your puppy for the first time or looking for help traning, we can help.
-              Golden Retrievers are one of the most loyal dogs and I'm excited to share what I know.
-              For all the puppy lovers! I am here to help answer questions you have about your new Golden Retriever.
-              From
-              trainig tips to teaching tricks we can help with it all. We will also list our litters as they become
-              availabe if
-              your interetsted in giving a puppy a forever home!
-            </h2>
-            </p>
-            </aside>
-        </section>
-        <figure>
-          <embed>
+        </style>
+        </head>
 
-      </main>
+        <body>
 
-      <footer>
-        <p>My Golden &copy; 2022 - Amy Engleman</p>
-        <p><a href="site-plan.html">Site Plan</a></p>
-        <p><a href="contactus.html">Feedback</a></p>
-        <div class="social">
-          <a href="https://instagram.com">
-            <img src="images/instagram.png" alt="instagram icon"></a>
-          <a href="https://facebook.com" target="_blank">
-            <img src="images/facebook.png" alt="fb icon"></a>
-          <a href="https://twitter.com">
-            <img src="images/twitter.png" alt="twitter icon"></a>
-        </div>
+          <h2>Our Golden Retrievers</h2>
+          <!-- <p>Change image every 2 seconds:</p> -->
+
+          <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <!-- <div class="numbertext">1 / 3</div> -->
+              <img src="images/pupchristmas.jpg" style="width:100%">
+              <!-- <div class="text">Puppies</div> -->
+            </div>
+
+            <div class="mySlides fade">
+              <!-- <div class="numbertext">2 / 3</div> -->
+              <img src="images/pup7.jpeg" style="width:100%">
+              <!-- <div class="text">puppy with a flower</div> -->
+            </div>
+
+            <div class="mySlides fade">
+              <!-- <div class="numbertext">3 / 3</div> -->
+              <img src="images/pup8.jpeg" style="width:100%">
+              <!-- <div class="text">adult golden</div> -->
+            </div>
+
+          </div>
+          <br>
+
+          <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+
+          <script>
+            let slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) { slideIndex = 1 }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex - 1].style.display = "block";
+              dots[slideIndex - 1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+          </script>
+
+        </body>
+
+        <!-- </html>
+<title>My Golden Retriever</title> -->
+
+        <!-- <body>
+                  <h3></h3>
+                  <name-tag></name-tag>
+                </body>
+                <section id="hero-msg">
+                  <h1 About our Dogs></h1>
+                  <h4></h4>
+                  </h4>
+                  <div>
+                  </div>
+                </section>
+                </div>
+                <main class="home-grid">
+                  <section class="">
+                    <h2></h2>
+                  </section>
+                  <section class="">
+                    <div id=""></div>
+                    </p>
+                  </section> -->
+
+        <main>
+          <section>
+            <article>
+              <h2>About our Dogs
+                If you are just meeting your puppy for the first time or looking for help traning, we can help.
+                Golden Retrievers are one of the most loyal dogs and I'm excited to share what I know.
+                For all the puppy lovers! I am here to help answer questions you have about your new Golden Retriever.
+                From
+                trainig tips to teaching tricks we can help with it all. We will also list our litters as they become
+                availabe if
+                your interetsted in giving a puppy a forever home!
+              </h2>
+              </p>
+              </aside>
+          </section>
+          <figure>
+            <embed>
+
+        </main>
+
+        <footer>
+          <p>My Golden &copy; 2022 - Amy Engleman</p>
+          <p><a href="site-plan.html">Site Plan</a></p>
+          <p><a href="contactus.html">Feedback</a></p>
+          <div class="social">
+            <a href="https://instagram.com">
+              <img src="images/instagram.png" alt="instagram icon"></a>
+            <a href="https://facebook.com" target="_blank">
+              <img src="images/facebook.png" alt="fb icon"></a>
+            <a href="https://twitter.com">
+              <img src="images/twitter.png" alt="twitter icon"></a>
+          </div>
 
 
-      </footer>
+        </footer>
 
-  </div>
+      </div>
 </body>
 
-</html>
+<!-- </html> -->

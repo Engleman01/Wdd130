@@ -1,119 +1,96 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <title>Feedback</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="styles/style.css" />
-    <link
-      rel="dog-logo"
-      href="images/dog-logo.png" 
-    />
-  </head>
 
-  <body>
-    <div id="content">
-      <header>
-        <div class="dog-logo">
-          <img
-            src="images/dog-logo.png"
-            alt="My Golden"
-          />
-        </div>
-        <nav>
-          
-          
-            <a href="index.html">Home</a>
-            <a href="information.html">Tips and Tricks</a>
-            <a href="feedback.html">Feedback</a>
-          
-        </nav>
-      </header>
+<head>
+  <title>Feedback</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="dog-logo" href="images/dog-logo.png" />
+</head>
 
-      <main>
+<body>
+  <div id="content">
+    <header>
+      <div class="dog-logo">
+        <img src="images/dog-logo.png" alt="My Golden" />
       </div>
-      <!-- <main class="home-grid"> -->
-        <div class="banner-box">
-          <h1 class="banner-text">We would love to hear from you!</h1>
-          <img
-            src="images/pup3.jpeg"
-            alt="banner-img"
-          />
-        </div class="home-grid">
-          <div class="feedback-grid">
-            <form class="form" action="feedback.html" method="post">
-              <div class="form-control">
-                <input
-                  type="text"
-                  class="field"
-                  id="name"
-                  name="user_name"
-                  placeholder="Your Name"
-                />
-                <label for="name" class="name form-label">Name:</label>
-              </div>
-              <div class="form-control">                
-                <input
-                  type="email"
-                  class="field"
-                  id="mail"
-                  name="user_email"
-                  placeholder="Your Email"
-                />
-                <label for="name" class="email form-label">Email:</label>
-              </div>
-              <div class="form-control">                
-                <textarea
-                  class="field message"
-                  placeholder="Your message"
-                ></textarea>
-                <label for="name" class="message form-label">Message:</label> 
-              </div>
-              <div class="wrap">
-                <button class="button" type="submit" onclick="x()">
-                  Submit
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </main>
-      <footer>
-        <p>My Golden &copy; 2022 - Amy Engleman</p>
-        <p><a href="index.html">Site Plan</a></p>
-        <p><a href="feedback.html">Feedback</a></p>
-        <div class="social">
-          <a href="https://instagram.com">
-            <img src="images/instagram.png" alt="instagram icon"></a>
-          <a href="https://facebook.com" target="_blank">
-            <img src="images/facebook.png" alt="fb icon"></a>
-          <a href="https://twitter.com">
-            <img src="images/twitter.png" alt="twitter icon"></a>
-        </div>
+      <nav>
 
 
-      </footer>
+        <a href="index.html">Home</a>
+        <a href="information.html">Tips and Tricks</a>
+        <a href="feedback.html">Feedback</a>
+
+      </nav>
+    </header>
+
+
+    <!-- <main class="home-grid"> -->
+    <div class="banner-box">
+      <h1 class="banner-text">We would love to hear from you!</h1>
+      <img src="images/pup3.jpeg" alt="banner-img" />
+    </div class="home-grid">
+    <div class="feedback-grid">
+      <form class="form" action="feedback.html" method="post">
+        <div class="form-control">
+          <input type="text" class="field" id="name" name="user_name" placeholder="Your Name" />
+          <label for="name" class="name form-label">Name:</label>
+        </div>
+        <div class="form-control">
+          <input type="email" class="field" id="mail" name="user_email" placeholder="Your Email" />
+          <label for="name" class="email form-label">Email:</label>
+        </div>
+        <div class="form-control">
+          <textarea class="field message" placeholder="Your message"></textarea>
+          <label for="name" class="message form-label">Message:</label>
+        </div>
+        <div class="wrap">
+          <button class="button" type="submit" onclick="x()">
+            Submit
+          </button>
+        </div>
+      </form>
     </div>
-    <script type="text/javascript">
-              const feedbackElement = document.getElementById("feedback");
-              const formElement = document.forms[0];
-              formElement.addEventListener("submit", function (e) {
-                e.preventDefault();
-                feedbackElement.innerHTML =
-                  "Hello " +
-                  formElement.user_name.value +
-                  "! Thank you for your message. We will get back with you as soon as possible!";
-                feedbackElement.style.display = "block";
-                document.body.classList.toggle("moveDown");
-              });
+  </div>
+  </main>
+  <footer>
+    <p>My Golden &copy; 2022 - Amy Engleman</p>
+    <p><a href="index.html">Site Plan</a></p>
+    <p><a href="feedback.html">Feedback</a></p>
+    <div class="social">
+      <a href="https://instagram.com">
+        <img src="images/instagram.png" alt="instagram icon"></a>
+      <a href="https://facebook.com" target="_blank">
+        <img src="images/facebook.png" alt="fb icon"></a>
+      <a href="https://twitter.com">
+        <img src="images/twitter.png" alt="twitter icon"></a>
+    </div>
 
-              function x() {
-                alert(
-                  "Thank you " +
-                    formElement.user_name.value +
-                    " for submitting your feedback!"
-                );
-              }
-            </script>
-  </body>
+
+  </footer>
+  </div>
+  <script type="text/javascript">
+    const feedbackElement = document.getElementById("feedback");
+    const formElement = document.forms[0];
+    formElement.addEventListener("submit", function (e) {
+      e.preventDefault();
+      feedbackElement.innerHTML =
+        "Hello " +
+        formElement.user_name.value +
+        "! Thank you for your message. We will get back with you as soon as possible!";
+      feedbackElement.style.display = "block";
+      document.body.classList.toggle("moveDown");
+    });
+
+    function x() {
+      alert(
+        "Thank you " +
+        formElement.user_name.value +
+        " for submitting your feedback!"
+      );
+    }
+  </script>
+</body>
+
 </html>

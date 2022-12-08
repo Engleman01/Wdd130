@@ -3,56 +3,55 @@
 
 <head>
   <title>Feedback</title>
-  <meta charset="utf-8" >
-  <meta name="viewport" content="width=device-width, initial-scale=1" >
-  <link rel="stylesheet" href="styles/style.css" >
-  <link rel="dog-logo" href="images/dog-logo.png" >
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="dog-logo" href="images/dog-logo.png">
 </head>
 
 <body>
- 
-    <header>
-      <div class="dog-logo">
-        <img src="images/dog-logo.png" alt="My Golden" >
-      </div>
-      <nav>
 
-
-        <a href="index.html">Home</a>
-        <a href="information.html">Tips and Tricks</a>
-        <a href="feedback.html">Feedback</a>
-
-      </nav>
-    </header>
-
-
-    <!-- <main class="home-grid"> -->
-    <div class="banner-box">
-      <h1 class="banner-text">We would love to hear from you!</h1>
-      <img src="images/pup3.jpeg" alt="banner-img" >
-    </div class="home-grid">
-    <div class="feedback-grid">
-      <form class="form" action="feedback.html" method="post">
-        <div class="form-control">
-          <input type="text" class="field" id="name" name="user_name" placeholder="Your Name" >
-          <label for="name" class="name form-label">Name:</label>
-        </div>
-        <div class="form-control">
-          <input type="email" class="field" id="mail" name="user_email" placeholder="Your Email" >
-          <label for="name" class="email form-label">Email:</label>
-        </div>
-        <div class="form-control">
-          <textarea class="field message" placeholder="Your message"></textarea>
-          <label for="name" class="message form-label">Message:</label>
-        </div>
-        <div class="wrap">
-          <button class="button" type="submit" onclick="x()">
-            Submit
-          </button>
-        </div>
-      </form>
+  <header>
+    <div class="dog-logo">
+      <img src="images/dog-logo.png" alt="My Golden">
     </div>
+    <nav>
+
+
+      <a href="index.html">Home</a>
+      <a href="information.html">Tips and Tricks</a>
+      <a href="feedback.html">Feedback</a>
+
+    </nav>
+  </header>
+
+
+  <!-- <main class="home-grid"> -->
+  <div class="banner-box">
+    <h1 class="banner-text">We would love to hear from you!</h1>
+    <img src="images/pup3.jpeg" alt="banner-img">
+  </div class="home-grid" class="feedback-grid">
+  <form class="form" action="feedback.html" method="post">
+    <div class="form-control">
+      <input type="text" class="field" id="name" name="user_name" placeholder="Your Name">
+      <label for="name" class="name form-label">Name:</label>
+    </div>
+    <div class="form-control">
+      <input type="email" class="field" id="mail" name="user_email" placeholder="Your Email">
+      <label for="name" class="email form-label">Email:</label>
+    </div>
+    <div class="form-control">
+      <textarea class="field message" placeholder="Your message"></textarea>
+      <label for="name" class="message form-label">Message:</label>
+    </div>
+    <div class="wrap">
+      <button class="button" type="submit" onclick="x()">
+        Submit
+      </button>
+    </div>
+  </form>
   </div>
+  
 
   <footer>
     <p>My Golden &copy; 2022 - Amy Engleman</p>
@@ -69,8 +68,8 @@
 
 
   </footer>
+
   
-  <script type="text/javascript">
     const feedbackElement = document.getElementById("feedback");
     const formElement = document.forms[0];
     formElement.addEventListener("submit", function (e) {

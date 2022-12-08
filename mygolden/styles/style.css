@@ -219,7 +219,7 @@ label {
 }
 
 .feedback-grid {
-  grid-column: 3/11;
+  grid-column: 4/11;
   grid-row: 4;
   margin-bottom: 70px;
   justify-self: center;

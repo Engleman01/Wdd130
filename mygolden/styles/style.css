@@ -310,6 +310,10 @@ textarea:focus {
   padding: 15px 60px;
 }
 
+.banner-box{
+  margin: auto 0;
+}
+
 .moveDown {
   margin-top: 3em;
 }

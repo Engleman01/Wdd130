@@ -39,13 +39,13 @@
   display: grid;
   grid-template-columns: repeat(12, 50px);
   padding: 1rem;
-  background-color: #fb7c7c;
+  background-color: #a26b6b;
 }
 
 .grid3 h3 {
   grid-column: 2 / 4;
   align-items:center;
-  background-color: #f04848;
+  background-color: #c66868;
 }
 
 .grid4 {
@@ -54,12 +54,12 @@
   display: grid;
   grid-template-columns: repeat(12, 70px);
   padding: 1rem;
-  background-color: #9c2b2b;
+  background-color: #9c6262;
 }
 
 .grid4 h2 {
   grid-column: 1 / 6;
-  background-color: #c53e3e;
+  background-color: #c46e6e;
   align-items: center;
 }
 
@@ -87,7 +87,7 @@ form {
 }
 
 legend {
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(251, 93, 93);
   font-size: 20px;
   font-weight: 700;
   grid-column: 2 / 5;
@@ -116,7 +116,7 @@ input {
 }
 
 button {
-  background-color: rgb(250, 40, 40);
+  background-color: rgb(249, 153, 153);
   color: white;
   padding-right: 160px;
   margin-bottom: 60px;

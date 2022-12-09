@@ -57,14 +57,16 @@ header p a:hover {
   max-width: 1600px;
   margin: 0 auto;
 }
+
 nav {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
   justify-items: center;
   align-items: center;
 }
+
 nav a {
-  
+
   color: #011606;
   font-size: 2.0em;
 
@@ -92,9 +94,10 @@ body {
   color: black;
 
 }
- .img-size-400 {
+
+.img-size-400 {
   width: 400px;
- }
+}
 
 .logo {
   width: 150px;
@@ -146,7 +149,7 @@ footer .social img {
   padding: 0px 45px;
   text-align: right;
   justify-self: center;
-  
+
 }
 
 
@@ -165,11 +168,11 @@ footer .social img {
   grid-column: 7/12;
   grid-row: 1;
   margin-top: 0em;
-  
+
   padding: 0px 45px;
   text-align: left;
   justify-self: center;
-  
+
 }
 
 .home-headline-2 {
@@ -189,7 +192,7 @@ footer .social img {
   padding: 0px 45px;
   text-align: center;
   justify-self: center;
-  
+
 }
 
 .home-headline-3 {
@@ -210,9 +213,8 @@ label {
   font-size: 1em;
   text-transform: uppercase;
   font-weight: bold;
-  color: #6e633d;
-  position: absolute;
-  left: 1rem;
+  color: black;
+  left: 1em;
   margin: 20px 20px;
   padding: 7px;
   cursor: text;
@@ -240,6 +242,7 @@ form {
   transition: all 0.5s;
   text-align: center;
   color: #000;
+
 }
 
 
@@ -312,7 +315,7 @@ textarea:focus {
   padding: 15px 60px;
 }
 
-.banner-box{
+.banner-box {
   margin: 0 auto;
   text-align: center;
 }

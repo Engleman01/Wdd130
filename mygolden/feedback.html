@@ -19,7 +19,7 @@
 
 
       <a href="index.html">Home</a>
-      <a href="Information.html">Tips and Tricks</a>
+      <a href="information.html">Tips and Tricks</a>
       <a href="feedback.html">Feedback</a>
 
     </nav>
@@ -30,21 +30,26 @@
   <div class="banner-box">
     <h1 class="banner-text">We would love to hear from you!</h1>
     <img src="images/pup3.jpeg" alt="banner-img">
-  </div class="home-grid" classfeedback-gridclass form action feedback.html method="post" classform-control input
-    type="text" classfield id="name" name="user_name" placeholder="Your Name" Name: classform-control
-type="email" class="field" id="mail" name="user_email" placeholder="Your Email">
-  Email:
-  
-  <div class="form-control">
-    <textarea class="field message" placeholder="Your message"></textarea>
-    Message:
   </div>
-  <div class="wrap">
-    <button class="button" type="submit" onclick="x()">
-      Submit
-    </button>
-  </div>
-
+  <form class="home-grid feedback-grid form" action="feedback.html" method="post">
+    <div class="form-control">
+      <input type="text" class="field" id="name" name="user_name" placeholder="Your Name">
+      <label for="name" class="name form-label">Name:</label>
+    </div>
+    <div class="form-control">
+      <input type="email" class="field" id="mail" name="user_email" placeholder="Your Email">
+      <label for="name" class="email form-label">Email:</label>
+    </div>
+    <div class="form-control">
+      <textarea class="field message" placeholder="Your message"></textarea>
+      <label for="name" class="message form-label">Message:</label>
+    </div>
+    <div class="wrap">
+      <button class="button" type="submit" onclick="x()">
+        Submit
+      </button>
+    </div>
+  </form>
 
 
 
@@ -64,27 +69,27 @@ type="email" class="field" id="mail" name="user_email" placeholder="Your Email">
 
   </footer>
 
+  <script>
+    const feedbackElement = document.getElementById("feedback");
+    const formElement = document.forms[0];
+    formElement.addEventListener("submit", function (e) {
+      e.preventDefault();
+      feedbackElement.innerHTML =
+        "Hello " +
+        formElement.user_name.value +
+        "! Thank you for your message. We will get back with you as soon as possible!";
+      feedbackElement.style.display = "block";
+      document.body.classList.toggle("moveDown");
+    });
 
-  const feedbackElement = document.getElementById("feedback");
-  const formElement = document.forms[0];
-  formElement.addEventListener("submit", function (e) {
-  e.preventDefault();
-  feedbackElement.innerHTML =
-  "Hello " +
-  formElement.user_name.value +
-  "! Thank you for your message. We will get back with you as soon as possible!";
-  feedbackElement.style.display = "block";
-  document.body.classList.toggle("moveDown");
-  });
-
-  function x() {
-  alert(
-  "Thank you " +
-  formElement.user_name.value +
-  " for submitting your feedback!"
-  );
-  }
-
+    function x() {
+      alert(
+        "Thank you " +
+        formElement.user_name.value +
+        " for submitting your feedback!"
+      );
+    }
+  </script>
 </body>
 
 </html>
